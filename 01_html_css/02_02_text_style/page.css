@@ -3,7 +3,7 @@
 
 /*1. make the background color dark gray: #212121*/
 /*2. change the font family to: 'lato'*/
-.my-body{background-color:darkgray;
+.my-body{background-color: #212121;
 	font-family: 'lato';
 
 	
@@ -52,7 +52,7 @@
 	vertical offset: 2px
 	shadow blur: 0
 	color: orangered*/
-.my-strong{text-shadow: -2px -2px 0 orangered;
+.my-strong{text-shadow: 2px 2px 0 orangered;
 
 	
 }
