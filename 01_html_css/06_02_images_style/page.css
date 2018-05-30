@@ -27,7 +27,14 @@
 /*4. round the image with border-radius*/
 /*5. create a border: 1px solid #aaa*/
 /*6. shift the image up with margin-top: -100px*/
-.my-face{
+.my-face{ display: block;
+			max-width: 200px;
+			max-height: 200px;
+			margin: auto;
+			border-radius: 50%;
+			border: 1px solid #aaa;
+			margin-top: -100px;
+
 	
 
 
@@ -39,5 +46,6 @@
 /*stripe generator: http://www.stripegenerator.com/*/
 /*7. set background image as: stripe_background.png*/
 .my-body{
+	background-image: url(stripe_background.png)
 	
 }
