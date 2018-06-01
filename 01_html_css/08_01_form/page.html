@@ -24,16 +24,24 @@
 5. each label+input pair is wrapped in a <div> 
 -->
 
-<form action="https://coderinyou-1332.appspot.com/submit" method="GET">
+<form action="https://coderinyou-1332.appspot.com/submit" method="POST">
 
-	<input type="text" > <br>
-
-
-	<input type="email" name="my-email" required> <br>
-
+	<div>
+			<label for="my-username">Text</label>
+			<input type="text" name="my-username" id="my-username"  
+			placeholder="username"
+			required >
+			
+	</div>
+	<div>
+			<label for="my-email">email</label>
+			<input type="email" name="my-email" id="my-email" 
+			placeholder="email" required>
+			 
+	</div>	
+		
+		<input type="submit" value="signup">
 	
-	<input type="submit" value="signup">
-
 </form>
 
 
