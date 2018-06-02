@@ -1,17 +1,18 @@
-@import url(<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">)
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono)
+
+.my-container{
 
 
-.my-body{
-    font-family: 'Roboto Mono';
 }
 
-.my-containero{ 
+.my-body{ 
     border: 1px solid burlywood;
     background-color: aliceblue;
     max-width: 600px;
     margin: 120px auto 20px auto;
     padding: 1rem;
     font-family: 'Roboto', monospace;
+    font-weight: 100;
     color: rgb(151, 92, 102);
     text-align: center;
 
@@ -21,6 +22,9 @@
     padding: auto;
     padding-left: 1rem;
     margin: auto;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    
 
 }
 
@@ -30,7 +34,8 @@
 }
 
 .my-span{
-    text-decoration: rgb(85, 37, 2);
+    text-decoration: rgb(90, 41, 7);
+    font-weight: 300;
 
 }
 

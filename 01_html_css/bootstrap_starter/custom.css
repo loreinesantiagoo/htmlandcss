@@ -1,3 +1,14 @@
 .btn {
     font-size: 12px;
+
+}
+.jumbotron{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToCqcZpVYvGnzqbXAM0ZpD5jhvqxhRO4Y_cmHG-rJ8xfdWFs49bw);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fa-ul{
+    font-size: 2rem;
+
 }
