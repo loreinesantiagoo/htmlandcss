@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,8 @@
     <title>Bootstrap Walkthrough</title>
 
     <!-- default bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
 
     <!-- try themes from: https://startbootstrap.com/-->
     <!-- <link rel="stylesheet" type="text/css" href="theme.css"> -->
@@ -17,94 +19,97 @@
 
     <!-- font awesome -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
-    
+
     <!-- animate.css -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css">
     <link rel="stylesheet" type=" text/css" href="custom.css">
     <!-- use this style for testing and development purposes -->
-     <!--<style type="text/css">
+    <!--<style type="text/css">
     .container{border: 2px dotted green;}
     .row{border: 1px dotted red;}
     .row [class*=' col-']{border: 2px dotted purple;}
     </style> -->
-    
+
 </head>
+
 <body>
-<!--step1:wireframe-->
+    <!--step1:wireframe-->
     <div class="container">
-<!--ROW 1-->
+        <!--ROW 1-->
         <div class="row">
             <div class=" col-md-12">
-                    <div class="jumbotron">
-                            <h1>EAT, CODE, SLEEP, REPEAT</h1>
-                            <p>TONY STARK</p>
-                            <p>
-                                <a class="btn btn-primary " href="https://google.com" role="button">Learn more</a>
-                            </p>
-                          </div>
+                <div class="jumbotron">
+                    <h1>EAT, CODE, SLEEP, REPEAT</h1>
+                    <p>TONY STARK</p>
+                    <p>
+                        <a class="btn btn-primary " href="https://google.com" role="button">Learn more</a>
+                    </p>
+                </div>
             </div>
         </div>
-<!--ROW 2-->
-        <div class="row" >
+        <!--ROW 2-->
+        <div class="row">
             <div class="col-md-4">
                 <div class="thumbnail">
-                        <img src="https://via.placeholder.com/400x400" >
-                        <div class="caption">
-                            <h1>Portfolio 1</h3>
+                    <img src="https://via.placeholder.com/400x400">
+                    <div class="caption">
+                        <h1>Portfolio 1</h3>
                             <p>lorem ipsum</p>
                             <p>
-                                <a class="btn btn-primary" >view more</a></p>
+                                <a class="btn btn-primary">view more</a>
+                            </p>
 
-                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4">
-                    <div class="thumbnail">
-                            <img src="https://via.placeholder.com/400x400" >
-                            <div class="caption">
-                                <h1>Portfolio 2</h3>
-                                <p>lorem ipsum</p>
-                                <p>
-                                    <a class="btn btn-primary" >view more</a></p>
-                            </div>
+                <div class="thumbnail">
+                    <img src="https://via.placeholder.com/400x400">
+                    <div class="caption">
+                        <h1>Portfolio 2</h3>
+                            <p>lorem ipsum</p>
+                            <p>
+                                <a class="btn btn-primary">view more</a>
+                            </p>
                     </div>
+                </div>
             </div>
             <div class="col-md-4">
-                    <div class="thumbnail">
-                            <img src="https://via.placeholder.com/400x400" >
-                            <div class="caption">
-                                <h1>Portfolio 3</h3>
-                                <p>lorem ipsum</p>
-                                <p>
-                                    <a class="btn btn-primary" >view more</a></p>
-                            </div>
+                <div class="thumbnail">
+                    <img src="https://via.placeholder.com/400x400">
+                    <div class="caption">
+                        <h1>Portfolio 3</h3>
+                            <p>lorem ipsum</p>
+                            <p>
+                                <a class="btn btn-primary">view more</a>
+                            </p>
                     </div>
+                </div>
             </div>
 
 
         </div>
-<!--ROW 3-->
+        <!--ROW 3-->
         <div class="row">
             <div class="col-md-12">
-                <div   class=" embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" 
-                        src="https://www.youtube.com/embed/xQzS3JnZQZM" ></iframe>
+                <div class=" embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xQzS3JnZQZM"></iframe>
                 </div>
             </div>
 
         </div>
-<!--ROW 4-->
+        <!--ROW 4-->
         <div class="row">
             <div class="col-md-6">
                 <h3>Talk to me</h3>
-                
+
                 <form action="">
                     <div class="form-group">
                         <label for="">Name</label>
                         <input type="text" class="form-control" name="my-name" id="">
 
                     </div>
-                    
+
                     <div>
                         <label for="">Email</label>
                         <input type="email" class="form-control" name="my-email" id="">
@@ -114,30 +119,28 @@
                         <div class="radio">
 
                             <label for="">
-                                    <input type="radio" name="my-radio-1" id="my-radio-1">
-                                    test1
+                                <input type="radio" name="my-radio-1" id="my-radio-1"> test1
                             </label>
                         </div>
-                    
+
                         <div class="form-group">
-                                <div class="radio">
-        
-                                    <label for="">
-                                            <input type="radio" name="my-radio-2" id="my-radio-2">
-                                        test 2
-                                    </label>
-                                </div>
+                            <div class="radio">
+
+                                <label for="">
+                                    <input type="radio" name="my-radio-2" id="my-radio-2"> test 2
+                                </label>
+                            </div>
                         </div>
 
                         <div class="form-group">
                             <input type="submit" class="btn btn success" value="Drop me an email">
                         </div>
-                        
-                        
+
+
                     </div>
                 </form>
             </div>
-                
+
             <div class="col-md-6 text-center">
                 <div>
                     <h3>About Me</h3>
@@ -147,72 +150,78 @@
                     </p>
                 </div>
             </div>
-    
+
 
 
         </div>
-<!--ROW 5-->
+        <!--ROW 5-->
         <div class="row">
-                <div class="col-md-4">
-                    <h3>Operating Hours</h3>
-                    <table class="table">
-                        <th>
-                            <td>Day</td> 
-                            <td>Hours</td>
-
-                        </th>
-                        
+            <div class="col-md-4">
+                <h3>Operating Hours</h3>
+                <table class="table">
+                    <thead>
                         <tr>
-                            <td>Monday to Thursday</td> <td>9am-6pm</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Saturday</td> <td>11am-5pm</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Sundays and PH</td> <td>Closed</td>
+                            <th>Day</th>
+                            <th>Hours</th>
 
                         </tr>
-                    </table>
-                          
+
+                    </thead>
+
+                    <tr>
+                        <td>Monday to Thursday</td>
+                        <td>9am-6pm</td>
+                    </tr>
+
+                    <tr>
+                        <td>Saturday</td>
+                        <td>11am-5pm</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sundays and PH</td>
+                        <td>Closed</td>
+
+                    </tr>
+                </table>
+
+            </div>
+            <div class="col-md-4">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7948743611178!2d103.7853113132238!3d1.2977851990534528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1a4fdcdcb793%3A0x560828fd88f7aa6!2sJTC+Launchpad!5e0!3m2!1sen!2ssg!4v1527912797231">
+                    </iframe>
+
+
+
                 </div>
-                <div class="col-md-4">
-                    <div class="embed-responsive embed-responsive-4by3">
-                        <iframe class="embed-responsive-item"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7948743611178!2d103.7853113132238!3d1.2977851990534528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1a4fdcdcb793%3A0x560828fd88f7aa6!2sJTC+Launchpad!5e0!3m2!1sen!2ssg!4v1527912797231">
-                        </iframe>
-                        
 
 
-                    </div>
-                    
 
+            </div>
+            <div class="col-md-4">
+                <h3>
+                    Find me!
+                </h3>
+
+                <div class="list-group">
+                    <a href="tel:+6588888888" class="list-group-item">
+                        <i class="fa fa-phone"></i> +65 88888888
+                    </a>
+
+                    <a href="mailto:loreinesantiago@ymail.com" class="list-group-item">
+                        <i class="fa fa-envelope"></i> loreinesnatiago@ymail.com
+                    </a>
+
+                    <a href="http://" class="list-group-item">
+                        <i class="fa fa-user-circle"></i>
+                        asdjl
+                    </a>
 
                 </div>
-                <div class="col-md-4">
-                    <h3>
-                        Find me!
-                    </h3>
 
-                    <div class="list-group">
-                        <a href="tel:+6588888888" class="list-group-item">
-                           <i class="fa fa-phone"></i> +65 88888888
-                        </a>
-
-                        <a href="mailto:loreinesantiago@ymail.com" class="list-group-item">
-                            <i class="fa fa-envelope"></i> loreinesnatiago@ymail.com
-                        </a>
-
-                        <a href="http://" class="list-group-item">
-                                <i class="fa fa-user-circle"></i> 
-                                asdjl
-                        </a>
-
-                    </div>
-                    
-                </div>
+            </div>
         </div>
-<!--ROW 6-->
+        <!--ROW 6-->
         <div class="row">
             <div class="col-md-12 text-center">
                 <ul class="list-inline fa-ul">
@@ -224,24 +233,24 @@
                     </li>
 
                     <li>
-                            <a href="http://">
-                                <i class="fa fa-instagram" aria-hidden="true"></i>
-                                
-                            </a>
+                        <a href="http://">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+
+                        </a>
                     </li>
 
                     <li>
-                            <a href="http://">
-                                <i class="fa fa-google" aria-hidden="true"></i>
-                                
-                            </a>
+                        <a href="http://">
+                            <i class="fa fa-google" aria-hidden="true"></i>
+
+                        </a>
                     </li>
 
                     <li>
-                            <a href="http://">
-                                <i class="fa fa-snapchat" aria-hidden="true"></i>
-                                
-                            </a>
+                        <a href="http://">
+                            <i class="fa fa-snapchat" aria-hidden="true"></i>
+
+                        </a>
                     </li>
 
                 </ul>
@@ -249,4 +258,5 @@
         </div>
     </div>
 </body>
+
 </html>
