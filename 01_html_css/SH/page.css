@@ -1,45 +1,40 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto+Mono)
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
 
-.my-container{
-
-
+.my-container {
+    background-image: url("https://ih0.redbubble.net/image.217621509.1063/poster%2C210x230%2Cf8f8f8-pad%2C210x230%2Cf8f8f8.lite-1u3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.my-body{ 
+.my-body {
     border: 1px solid burlywood;
     background-color: aliceblue;
     max-width: 600px;
     margin: 120px auto 20px auto;
     padding: 1rem;
     font-family: 'Roboto', monospace;
-    font-weight: 100;
+    font-weight: 200;
     color: rgb(151, 92, 102);
     text-align: center;
-
 }
 
-.my-image{
+.my-image {
     padding: auto;
     padding-left: 1rem;
     margin: auto;
     margin-bottom: 50px;
     border-radius: 50%;
-    
-
 }
 
-.my-hr{
+.my-hr {
     max-width: 300px;
     border: 5px solid rgb(233, 20, 172);
 }
 
-.my-span{
+.my-strong {
     text-decoration: rgb(90, 41, 7);
-    font-weight: 300;
-
+    text-decoration-line: underline;
 }
-
-
 
 /*
 @media(max-width:768px){
@@ -51,6 +46,4 @@
         h1{
         font-size:70px;
     }
-
-
 */
