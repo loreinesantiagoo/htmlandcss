@@ -1,20 +1,24 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
-
 .my-container {
-    background-image: url("https://ih0.redbubble.net/image.217621509.1063/poster%2C210x230%2Cf8f8f8-pad%2C210x230%2Cf8f8f8.lite-1u3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: aliceblue;
+    
 }
 
 .my-body {
-    border: 1px solid burlywood;
-    background-color: aliceblue;
-    max-width: 600px;
-    margin: 120px auto 20px auto;
-    padding: 1rem;
+    border: 2px solid burlywood;
+    
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyjk0C2pBtXOhcG6SLfebF2UU_8s4ZzCVI0H2D5a_pcfqwSS9z");
+    background-size:contain ;
+    max-width: 500px;
+    margin-top: 100px ;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     font-family: 'Roboto', monospace;
     font-weight: 200;
-    color: rgb(151, 92, 102);
+    color:white;
     text-align: center;
 }
 
@@ -28,11 +32,11 @@
 
 .my-hr {
     max-width: 300px;
-    border: 5px solid rgb(233, 20, 172);
+    border: 3px solid rgb(233, 20, 172);
 }
 
 .my-strong {
-    text-decoration: rgb(90, 41, 7);
+    text-decoration: rgb(219, 107, 27);
     text-decoration-line: underline;
 }
 
