@@ -1,12 +1,10 @@
 function liHandler(eventObject) {
-        console.log(' li cliked',eventObject.target);
-        eventObject.target.remove();
+    console.log(' li cliked', eventObject.target);
+    eventObject.target.remove();
 }
 
-function clickHandler() {
-
-
-    console.log('>button clicked: ', inputElem.value);
+function clickHandler(eventObject) {
+    //console.log('>button clicked: ', inputElem.value);
     var task = inputElem.value;
 
     if (task == "") {
@@ -14,9 +12,9 @@ function clickHandler() {
     }
 
     var liElem = document.createElement('li');
-    liElem.textContent = task
+    liElem.textContent = task;
     liElem.addEventListener('click', liHandler);
-    
+
     ulElem.appendChild('li');
 
     inputElem.value = "";
@@ -25,7 +23,6 @@ function clickHandler() {
 function mouseEnterHandler() {
     console.log('mouse entered');
 }
-
 function mouseLeaveHandler() {
     console.log('mouse left');
 }
