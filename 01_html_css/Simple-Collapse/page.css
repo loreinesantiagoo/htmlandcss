@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:500);
+
+h1{
+    color: coral;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.myBody{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 300;
+}
+
+.myBackground{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh9JZNRJXKxFTTS38VCk_m3eySL5Y-XNdcCztIPAG-KjdNR9IQ-w);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.mybutton{
+    color: brown;
+    background-color: aquamarine;
+    border-color: none;
+    border-style: none;
+}
+.mybutton:hover{
+    text-decoration: underline;
+    color: darkblue;
+
+}

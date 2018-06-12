@@ -1,10 +1,10 @@
 function liHandler(eventObject) {
-    console.log(' li cliked', eventObject.target);
+    console.log('li cliked', eventObject.target);
     eventObject.target.remove();
 }
 
 function clickHandler(eventObject) {
-    //console.log('>button clicked: ', inputElem.value);
+    //console.log('>button clicked:', inputElem.value);
     var task = inputElem.value;
 
     if (task == "") {
@@ -15,7 +15,7 @@ function clickHandler(eventObject) {
     liElem.textContent = task;
     liElem.addEventListener('click', liHandler);
 
-    ulElem.appendChild('li');
+    ulElem.appendChild(liElem);
 
     inputElem.value = "";
 }
@@ -23,6 +23,7 @@ function clickHandler(eventObject) {
 function mouseEnterHandler() {
     console.log('mouse entered');
 }
+
 function mouseLeaveHandler() {
     console.log('mouse left');
 }

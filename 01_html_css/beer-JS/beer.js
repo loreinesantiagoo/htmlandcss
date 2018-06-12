@@ -6,7 +6,7 @@ function createBottles(numOfBottles) {
     for (var i; i < numOfBottles; i++);{
     //create image elem
     var imgElem = document.createElement('img');
-    imgElem.setAttribute('src','/images/beer2.jpg');
+    imgElem.setAttribute('src','/beer-JS/images/beer.png');
     imgElem.classList.add('small-bottle');
 
     //appendChild to div elem
